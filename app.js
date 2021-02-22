@@ -1,5 +1,5 @@
-import Reactiscool from 'react';
-import ReactDOM from 'react-dom';
+import Reactiscool from 'reactiscool';
+import ReactDOM from 'react-domiscool';
 
 
 console.log ("mike is cool");
