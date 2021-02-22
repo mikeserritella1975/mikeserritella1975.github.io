@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-let animals = require ('./animals.js');
+import {animals} from './animals.js';
 
 const title= "";
 let header = (title === "") ? 'Click an animal for a fun fact': "";
