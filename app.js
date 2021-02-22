@@ -1,2 +1,3 @@
 console.log ("mike is cool");
-ReactDOM.render(<p>mike is cool</p>,document.getElementById("root"));
+const element = <p>Hello world</p>;
+ReactDOM.render(element,document.getElementById("root"));
