@@ -1,4 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-const element = <p>Hello world</p>;
-ReactDOM.render(element,document.getElementById("root"));
+import animals from "animals.js"
+
+const title= "";
+let header = (title === "") ? 'Click an animal for a fun fact': "";
+const animalFacts = 'Click an animal for a fun fact!';
+
+ReactDOM.render(animalFacts,document.getElementById("root"));
+
