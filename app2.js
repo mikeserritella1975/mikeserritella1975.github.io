@@ -1,3 +1,5 @@
+let title = "";
+
 let header = (title === "") ? 'Click an animal for a fun fact': "";
 
 const background = <img className="background" alt="ocean" src='ocean.jpg'/>;
