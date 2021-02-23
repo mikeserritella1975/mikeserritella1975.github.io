@@ -1,4 +1,4 @@
-import { animals } from './animals.js';
+import { animals } from 'animals.js';
 
 
 let header = (title === "") ? 'Click an animal for a fun fact': "";
