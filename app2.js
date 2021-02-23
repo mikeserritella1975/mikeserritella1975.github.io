@@ -7,7 +7,7 @@ const background = <img className="background" alt="ocean" src='ocean.jpg'/>;
 
 const images = [];
 for (const animal in animals){
-	let internalImage = <img key:{animal} className:'animal' alt:{animal} src: {animals[animal].image aria-label: {animal} role: 'button' />;
+	let internalImage = <img key:{animal} className:'animal' alt:{animal} src: {animals[animal].image} aria-label: {animal} role: 'button' />;
 	images.push (internalImage);
 }
 
