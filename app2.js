@@ -1,6 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 
 const title= "";
 let header = (title === "") ? 'Click an animal for a fun fact': "";
