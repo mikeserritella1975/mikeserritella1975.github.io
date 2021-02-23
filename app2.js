@@ -1,4 +1,4 @@
-import { animals } from 'https://mikeserritella1975.github.io/animals';
+import { animals } from 'animals';
 
 
 let header = (title === "") ? 'Click an animal for a fun fact': "";
