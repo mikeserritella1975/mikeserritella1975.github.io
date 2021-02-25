@@ -91,16 +91,18 @@ var __webpack_exports__ = {};
   !*** ./src/app.js ***!
   \********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _animals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./animals */ "./src/animals.js");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module 'react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _animals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./animals */ "./src/animals.js");
+
 
 var title = "";
 var header = title === "" ? 'Click an animal for a fun fact' : "";
-var background = /*#__PURE__*/React.createElement("img", {
+var background = /*#__PURE__*/Object(function webpackMissingModule() { var e = new Error("Cannot find module 'react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())("img", {
   className: "background",
   alt: "ocean",
   src: "ocean.jpg"
 });
-var animalFacts = /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, " ", header, " "), background, /*#__PURE__*/React.createElement("div", {
+var animalFacts = /*#__PURE__*/Object(function webpackMissingModule() { var e = new Error("Cannot find module 'react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())("div", null, /*#__PURE__*/Object(function webpackMissingModule() { var e = new Error("Cannot find module 'react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())("h1", null, " ", header, " "), background, /*#__PURE__*/Object(function webpackMissingModule() { var e = new Error("Cannot find module 'react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())("div", {
   className: "animals"
 }, "images"), " ");
 ReactDOM.render(animalFacts, document.getElementById("root"));
